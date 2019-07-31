@@ -27,8 +27,6 @@ melbourne_data.describe()
 
 **Output :**
 
-<div>
-
 <table class="dataframe" border="1">
     <thead>
         <tr style="text-align: right;">
@@ -179,7 +177,6 @@ melbourne_data.describe()
         </tr>
     </tbody>
 </table>
-</div>
 
 ## 解释下数据描述
 
