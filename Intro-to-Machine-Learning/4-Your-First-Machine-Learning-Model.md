@@ -8,7 +8,6 @@
 
 要选择变量/列，我们需要查看关于在数据集中所有列（columns）的一个列表，下面的是用DataFramed的列（columns）属性完成的。
 
-
 **In [1]**
 
 ```python
