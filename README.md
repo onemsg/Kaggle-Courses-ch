@@ -31,7 +31,7 @@ Kaggle官网提供了快速入门机器学习的教程，从基础的python开�
 
 1. ### Python
   
-2. ### [机器学习简介](./Intro-to-Machine-Learning/README.md)
+2. ### [机器学习简介](./Intro-to-Machine-Learning)
 
 3. ### 数据可视化: 从非编码到编码
 
