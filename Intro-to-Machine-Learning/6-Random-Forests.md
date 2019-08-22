@@ -24,12 +24,12 @@ import pandas as pd
 
 # Load data
 melbourne_file_path = '../input/melbourne-housing-snapshot/melb_data.csv'
-melbourne_data = pd.read_csv(melbourne_file_path) 
+melbourne_data = pd.read_csv(melbourne_file_path)
 # Filter rows with missing values
 melbourne_data = melbourne_data.dropna(axis=0)
 # Choose target and features
 y = melbourne_data.Price
-melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'BuildingArea', 
+melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'BuildingArea',
                         'YearBuilt', 'Lattitude', 'Longtitude']
 X = melbourne_data[melbourne_features]
 
