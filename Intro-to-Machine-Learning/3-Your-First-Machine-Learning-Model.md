@@ -2,13 +2,13 @@
 
 ## 为模型选择数据
 
-你的数据集有很多变量（variables）令你无法记下来，或甚至不能很好的打印显示出来。如何将大量的数据减少为你可以理解的内容？
+你的数据集有很多 **变量/variables** 令你无法都记下来，或甚至不能很好的打印显示出来，如何将大量的数据减少为你可以理解的内容？
 
 首先，我们用直觉选几个变量，之后的课程会告诉你一些统计技术来自动确定变量的优先级。
 
-要选择变量/列，我们需要查看关于在数据集中所有列（columns）的一个列表，下面的是用DataFramed的列（columns）属性完成的。
+要选择变量/列，我们需要查看关于在数据集中所有列（columns）的一个列表，下面的是用 DataFramed 的 **列/columns** 属性完成的。
 
-**In [1]**
+### In [1]
 
 ```python
 import pandas as pd
@@ -18,7 +18,7 @@ melbourne_data = pd.read_csv(melbourne_file_path)
 melbourne_data.columns
 ```
 
-**Out [1]**
+### Out [1]
 
 ```text
 Index(['Suburb', 'Address', 'Rooms', 'Type', 'Price', 'Method', 'SellerG',
@@ -28,20 +28,20 @@ Index(['Suburb', 'Address', 'Rooms', 'Type', 'Price', 'Method', 'SellerG',
       dtype='object')
 ```
 
-**In [2]**
+### In [2]
 
 ```python
 # The Melbourne data has some missing values (some houses for which some variables weren't recorded.)
 # We'll learn to handle missing values in a later tutorial.  
-# Your Iowa data doesn't have missing values in the columns you use. 
-# So we will take the simplest option for now, and drop houses from our data. 
+# Your Iowa data doesn't have missing values in the columns you use.
+# So we will take the simplest option for now, and drop houses from our data.
 # Don't worry about this much for now, though the code is:
 
 # dropna drops missing values (think of na as "not available")
 melbourne_data = melbourne_data.dropna(axis=0)
 ```
 
-有很多方法去选择以数据的子集，[Pandas微课程](https://www.kaggle.com/learn/pandas)有更深的介绍，但现在我们会专注两个方法。
+有很多方法去选择一数据的子集，[Pandas微课程](https://www.kaggle.com/learn/pandas)有更深的介绍，但现在我们会专注两个方法。
 
 1. 点表示法，我们用于选择“预测目标”（prediction target）
 
@@ -53,7 +53,7 @@ melbourne_data = melbourne_data.dropna(axis=0)
 
 使用点表示法选择我们想要预测的列,该列称为预测目标。按照惯例，预测目标称为 y。因此,我们需要在墨尔本数据中保存房价的代码是
 
-**In [3]**
+### In [3]
 
 ```python
 y = melbourne_data.Price
@@ -69,7 +69,7 @@ y = melbourne_data.Price
 下
 面是一个示例:
 
-**In [4]**
+### In [4]
 
 ```python
 melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude']
@@ -77,7 +77,7 @@ melbourne_features = ['Rooms', 'Bathroom', 'Landsize', 'Lattitude', 'Longtitude'
 
 按照惯例，我们把这种数据叫做 **X**
 
-**In [5]**
+### In [5]
 
 ```python
 X = melbourne_data[melbourne_features]
@@ -85,13 +85,13 @@ X = melbourne_data[melbourne_features]
 
 让咱们快速查看下咱们用来预测房屋价格的数据，使用 `descibe` 方法和用来展示头几行数据的 `head` 方法
 
-**In [6]**
+### In [6]
 
 ```python
 X.describe()
 ```
 
-**Out [6]**
+### Out [6]
 
 <table class="dataframe" border="1">
   <thead>
@@ -172,13 +172,13 @@ X.describe()
   </tbody>
 </table>
 
-**In [7]**
+### In [7]
 
 ```python
 X.head()
 ```
 
-**Out [7]**
+### Out [7]
 
 <table class="dataframe" border="1">
   <thead>
@@ -249,7 +249,7 @@ X.head()
 
 - **验证/Evaluete** 检测模型的预测能力有多准确。
 
-**In [8]**
+### In [8]
 
 ```python
 from sklearn.tree import DecisionTreeRegressor
@@ -261,7 +261,7 @@ melbourne_model = DecisionTreeRegressor(random_state=1)
 melbourne_model.fit(X, y)
 ```
 
-**Out [8]**
+### Out [8]
 
 ```text
 DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
@@ -277,7 +277,7 @@ DecisionTreeRegressor(criterion='mse', max_depth=None, max_features=None,
 
 在实践中,你会想预测市场上新的房子，而不是我们已经有价格的房子。但是，要对训练数据的前几行进行预测，以查看预测函数的运转情况。
 
-**In [9]**
+### In [9]
 
 ```python
 print("Making predictions for the following 5 houses:")
@@ -300,4 +300,4 @@ The predictions are
 
 ## 接下来
 
-尝试它在[模型构建练习](https://www.kaggle.com/scratchpad/kerneldc4e8a7b51/edit)
+尝试它在[模型构建练习](https://www.kaggle.com/scratchpad/kerneldc4e8a7b51/edit "进入kaggle Kernels")
