@@ -43,7 +43,7 @@ Kaggle官网提供了快速入门机器学习的教程，从基础的python开�
 
 7. ### 数据可视化
 
-8. ### [SQL简介](./Intro-to-Sql)
+8. ### [SQL简介](./Intro-to-SQL)
 
 9. ### 微挑战
 
