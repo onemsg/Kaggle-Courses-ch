@@ -24,7 +24,7 @@
 
 -----------------------
 
-## 1 [开启SQL和BigQuery](./1-Getting-Started-With-SQL-and-BigQuery.md) 📄
+## 1 [开启SQL和BigQuery](./1-Getting-Started-With-SQL-and-BigQuery.md) 📄 💻
 
 学习通过BigQuery和SQL处理海量数据集的工作流程
 

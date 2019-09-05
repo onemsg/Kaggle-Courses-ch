@@ -80,7 +80,7 @@ stories
 
 ### In [5]
 
-'''
+``` python
 #Construct a reference to the "full" table
 
 table_ref =dataset_ref.table("full")
@@ -88,8 +88,7 @@ table_ref =dataset_ref.table("full")
 #API request -fetch the table
 
 table = client.get_table(table_ref)
-
-'''
+```
 
 在接下来的一部分中，你将更详细的了解这个表中的内容。现在，请花时间使用下面的图像来巩固到目前为止所学到的知识。
 
@@ -103,10 +102,10 @@ table = client.get_table(table_ref)
 
 ### In [6]
 
-'''
+``` python
 #Print information on all the columns in the "full" table in the "hacker_news" dataset table.schema
 
-'''
+```
 
 ### Out [6]
 
