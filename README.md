@@ -29,9 +29,9 @@ Kaggle官网提供了快速入门机器学习的教程，从基础的python开�
 
 ### 微课程列表
 
-1. ### Python
+1. ### [Python](./Python/REMADE.md)
   
-2. ### [机器学习简介](./Intro-to-Machine-Learning)
+2. ### [机器学习简介](./Intro-to-Machine-Learning/README.md)
 
 3. ### 数据可视化: 从非编码到编码
 
@@ -43,7 +43,7 @@ Kaggle官网提供了快速入门机器学习的教程，从基础的python开�
 
 7. ### 数据可视化
 
-8. ### [SQL简介](./Intro-to-SQL)
+8. ### [SQL简介](./Intro-to-SQL/README.md)
 
 9. ### 微挑战
 
