@@ -29,8 +29,8 @@ Setup Complete
 1. "Shape of You", by Ed Sheeran ([link](https://en.wikipedia.org/wiki/Shape_of_You))
 2. "Despacito", by Luis Fonzi ([link](https://en.wikipedia.org/wiki/Despacito))
 3. "Something Just Like This", by The Chainsmokers and Coldplay ([link](https://en.wikipedia.org/wiki/Something_Just_like_This))
-4. "HUMBLE.", by Kendrick Lamar ([link](https://en.wikipedia.org/wiki/Humble_(song))
-5. "Unforgettable", by French Montana ([link](https://en.wikipedia.org/wiki/Unforgettable_(French_Montana_song))
+4. "HUMBLE.", by Kendrick Lamar ([link](https://en.wikipedia.org/wiki/Humble_(song)))
+5. "Unforgettable", by French Montana ([link](https://en.wikipedia.org/wiki/Unforgettable_(French_Montana_song)))
 
 ![imag 2.1](./imgs/2.1.png)
 
