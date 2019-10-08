@@ -17,14 +17,32 @@
 **[Alexis Cook](https://www.kaggle.com/alexisbcook)** *AI 教育工作者*
 >*Alexis为多个在线学习平台（包括 Udacity 和 DataCamp）教授数据科学。她拥有杜克大学、密歇根大学和布朗大学的学位。*
 
+### 翻译贡献者😘： ***@樱柚*** *3328320547@qq.com*
+
 -----------------------
 
 ## 课程/Lessons
-
------------------------
 
 ## 1 [开启SQL和BigQuery](./1-Getting-Started-With-SQL-and-BigQuery.md) 📄 💻
 
 学习通过BigQuery和SQL处理海量数据集的工作流程
 
-## pass
+## 2 [Select,From & Where](./2-Select-From-WHere.md) 📄 💻
+
+整个SQL查询大厦的基础部分
+
+## 3 [Group By,Having & Count](./3-GroupBy-Having-Count.md) 📄 💻
+
+马上从SQL查询中获得更多有趣的洞见
+
+## 4 [Order By](./4-OrderBy.md) 📄 💻
+
+排列你的结果聚焦在最重要的数据上
+
+## 5 [As & With](./5-As-With.md) 📄 💻
+
+是你的查询更有可读性，这对复杂查询尤其重要
+
+## 6 [Joining Data](./6-Joining-Data.md) 📄 💻
+
+组合数据源，对几乎所有的认识世界里的数据问题都极为关键
